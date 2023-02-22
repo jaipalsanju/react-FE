@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Table(){
   return(
-    <table border="2">
+    <table >
         <tr>
-            <td>Name</td>
-            <td>class</td>
-            <td>address</td>
-            <td>contact</td>
+            <th>Name</th>
+            <th>class</th>
+            <th>address</th>
+            <th>contact</th>
         </tr>
         <tr>
             <td>ram</td>
