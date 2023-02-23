@@ -24,11 +24,14 @@ p {
   border-radius: 2%;
 }
 .abc {
-  display: none;
+  /* display: none; */
+  color:green;
 }
 .pstyle {
-  display: block;
+  /* display: block; */
   color: red;
+  padding:5px;
+  margin: 5px;
 }
 table ,td ,th {
   border: 2px solid black;

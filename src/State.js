@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import "./style.css";
-
+let colorTogle=true
 export default function State() {
   let [abc, xyz] = useState('abc');
   function Showp() {
-    
-    xyz('pstyle');
+    colorTogle=!colorTogle
+    if(colorTogle){
+      xyz('pstyle');
+    }
+    else{
+      xyz('abc');
+
+    }
   }
   return (
     <div>
